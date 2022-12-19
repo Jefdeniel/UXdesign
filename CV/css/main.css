@@ -1,0 +1,55 @@
+:root {
+  --color-white: hsl(0, 0%, 100%);
+  --color-green: hsl(149, 99%, 33%);
+  --color-green-subtle: hsl(151, 25%, 77%);
+  --color-bg: hsl(225, 6%, 13%);
+  --font-family-roboto: "Roboto Slab", serif;
+}
+
+body {
+  font-family: var(--font-family-roboto);
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--color-white);
+  background-color: var(--color-bg);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.4rem;
+}
+
+h4 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+.p-detail {
+  color: var(--color-green-subtle);
+}
+
+a {
+  color: var(--color-green);
+  text-decoration: underline solid var(--color-green);
+  font-weight: 900;
+}
