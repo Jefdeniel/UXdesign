@@ -1,5 +1,6 @@
 :root {
   --color-white: hsl(0, 0%, 100%);
+  --color-black: hsl(0, 0%, 0%);
   --color-green: hsl(149, 99%, 33%);
   --color-green-subtle: hsl(151, 25%, 77%);
   --color-bg: hsl(225, 6%, 13%);
@@ -33,7 +34,11 @@ h2 {
 }
 
 h3 {
-  font-size: 2.4rem;
+  font-size: 2rem;
+}
+
+.h3-divider {
+  color: var(--color-green);
 }
 
 h4 {
@@ -52,4 +57,54 @@ a {
   color: var(--color-green);
   text-decoration: underline solid var(--color-green);
   font-weight: 900;
+}
+
+a:hover {
+  color: var(--color-green-subtle);
+  text-decoration: underline solid var(--color-green-subtle);
+}
+
+/* Buttons */
+
+.btn-primary-big {
+  padding: 1rem 3rem;
+  border: 2px solid var(--color-green);
+  border-radius: 1rem;
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: var(--color-black);
+  background-color: var(--color-green);
+  transition: all 0.3s;
+}
+
+.btn-primary-big:hover {
+  color: var(--color-green);
+  background-color: var(--color-white);
+}
+
+.btn-primary-small {
+  padding: 0.5rem 1rem;
+  border: 2px solid var(--color-green);
+  border-radius: 1rem;
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: var(--color-black);
+  background-color: var(--color-green);
+  transition: all 0.3s;
+}
+
+.btn-primary-small:hover {
+  color: var(--color-green);
+  background-color: var(--color-white);
+}
+
+.btn-secondary-big {
+  padding: 1rem 3rem;
+  border: 2px solid var(--color-green);
+  border-radius: 1rem;
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: var(--color-green);
+  background-color: var(--color-black);
+  transition: all 0.3s;
 }

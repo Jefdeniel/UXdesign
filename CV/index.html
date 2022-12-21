@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./css/header.css" />
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -31,12 +32,81 @@
   </head>
   <!-- Body -->
   <body>
-    <div class="container">
-      <div class="row"></div>
-      <h1>
-        Hoi, ik ben Jef <br />
-        Onine marketeer en een nog studerende software developper.
-      </h1>
+    <!-- start of navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark m-5">
+      <div class="container">
+        <a class="navbar-brand text-uppercase" href="#">Jef</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Over mij</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Mijn werk</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+          </ul>
+            
+            <button class="btn-primary-small">Github <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+              <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+            </svg></button>
+         
+        </div>
+      </div>
+    </nav>
+    <!-- start of body -->
+    <div class="container mt-5">
+      <div class="row m-5">
+        <h1>
+          Hoi, ik ben Jef <br />
+          Onine marketeer en een nog studerende software developper.
+        </h1>
+    </div>
+    <!-- Over mij-->
+    <div class="container m-5">
+      <div class="col-12 mt-5">
+        <h3 class="h3-divider text-uppercase">${Over mij}</h3>
+        <h2 class="mt-5">Samengevat ben ik een gepassioneerd ondernemer. Met een voorliefde voor online marketing, beleggen, investeren en uiteraard programmeren</h2>
+        <div class="row">
+          <div class="col-md-6 mt-5 align">
+            <p>Ik zit ook zeker niet stil. In 2020 begon ik met mijn eigen zaak. Een online managementsysteem: RestoManager</p>
+            <span>
+              <button class="btn-primary-big">RestoManager <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+              </svg></button>
+              <button class="btn-secondary-big">RestoTakeout</button>
+            </span>
+          </div>
+
+          <div class="col-md-6 mt-5"><img src="./img/jef.png" class="img-fluid"></div>
+      </div>
+      </div>
+    </div>
+    <!-- Mijn werk-->
+    <div class="container m-5">
+      <h3 class="h3-divider text-uppercase">${Mijn werk}</h3>
+      <h2 class="mt-5">In Gent haalde ik mijn eerste diploma in Financie- en Verzekeringswezen. Ik heb reeds werkervaring opgedaan bij de online broker LYNX en werk ik mijn postgraduaat af in programmeren.</h2>
+      <div class="row">
+        <div class="col-md-8 mt-5 align">
+          <p>Ik breid graag mijn netwerk uit.</p>
+          <p>Let's connect!</p>
+        </div>
+        <div class="col-md-4 mt-5"><button class="btn-primary-big">LinkedIn <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+          <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+        </svg></button>
+        </div>
+      </div>
+    </div>
+
+
       <h2>Hello world!</h2>
       <h3>Hello world!</h3>
       <p>
@@ -45,7 +115,44 @@
         est? Culpa fugit eos suscipit, <p class="p-detail">totam</p> iure possimus consequuntur nihil
         iusto <a href="https://www.w3schools.com">Visit W3Schools</a> quas doloribus?
       </p>
+      <button class="btn-primary-big">RestoManager </button>
+      <button class="btn-secondary-big">RestoManager <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
+        <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
+      </svg></button>
+      <button class="btn-primary-small">RestoManager <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+        <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+      </svg></button>
 
     </div>
+      <!-- start of end navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark m-5">
+        <div class="container">
+          <a class="navbar-brand text-uppercase" href="#">Jef</a>
+  
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Over mij</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Mijn werk</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+            </ul>
+              
+              <button class="btn-primary-small">Github <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+              </svg></button>
+           
+          </div>
+        </div>
+      </nav>
   </body>
 </html>
