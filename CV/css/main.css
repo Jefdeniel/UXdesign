@@ -5,6 +5,7 @@
   --color-green: hsl(149, 99%, 33%);
   --color-green-subtle: hsl(151, 25%, 77%);
   --color-bg: hsl(225, 6%, 13%);
+  --color-contact: hsl(160, 4%, 14%);
   --font-family-roboto: "Roboto Slab", serif;
 }
 
@@ -43,7 +44,10 @@ h3 {
 }
 
 h4 {
-  font-size: 2rem;
+  font-size: 1.8rem;
+  color: var(--color-green);
+  text-transform: uppercase;
+  font-weight: 400;
 }
 
 p {
@@ -121,4 +125,9 @@ a:hover {
 .mt-5 {
   margin-top: 7rem;
   margin-bottom: 7rem;
+}
+
+.contact-box {
+  background-color: var(--color-contact);
+  border-radius: 15px;
 }
