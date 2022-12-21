@@ -37,12 +37,19 @@
       <div class="container">
         <a class="navbar-brand text-uppercase" href="#">Jef</a>
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="#">Over mij</a>
@@ -50,109 +57,342 @@
             <li class="nav-item">
               <a class="nav-link" href="#">Mijn werk</a>
             </li>
-            
             <li class="nav-item">
               <a class="nav-link" href="#">Contact</a>
+            </li>
           </ul>
-            
-            <button class="btn-primary-small">Github <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
-              <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
-            </svg></button>
-         
+
+          <button class="btn-primary-small">
+            Github
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-caret-right-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"
+              />
+            </svg>
+          </button>
         </div>
       </div>
     </nav>
     <!-- start of body -->
     <div class="container mt-5">
       <div class="row m-5">
-        <h1>
+        <h1 class="mt-5">
           Hoi, ik ben Jef <br />
           Onine marketeer en een nog studerende software developper.
         </h1>
-    </div>
-    <!-- Over mij-->
-    <div class="container m-5">
-      <div class="col-12 mt-5">
-        <h3 class="h3-divider text-uppercase">${Over mij}</h3>
-        <h2 class="mt-5">Samengevat ben ik een gepassioneerd ondernemer. Met een voorliefde voor online marketing, beleggen, investeren en uiteraard programmeren</h2>
+      </div>
+      <!-- Over mij-->
+      <div class="row m-5">
+        <div class="col-12 mt-5">
+          <h3 class="h3-divider text-uppercase">${Over mij}</h3>
+          <h2 class="mt-5">
+            Samengevat ben ik een gepassioneerd ondernemer. Met een voorliefde
+            voor online marketing, beleggen, investeren en uiteraard
+            programmeren
+          </h2>
+          <div class="row">
+            <div class="col-md-6 mt-5 d-flex flex-column justify-content-md-around">
+              <p>
+                Ik zit ook zeker niet stil. In 2020 begon ik met mijn eigen
+                zaak. Een online managementsysteem: RestoManager
+              </p>
+              <span>
+                <button class="btn-primary-big">
+                  RestoManager
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-caret-right-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"
+                    />
+                  </svg>
+                </button>
+                <button class="btn-secondary-big">RestoTakeout</button>
+              </span>
+            </div>
+
+            <div class="col-md-6 mt-5">
+              <img src="./img/jef.png" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Mijn werk-->
+      <div class="row m-5">
+        <h3 class="h3-divider text-uppercase">${Mijn werk}</h3>
+        <h2 class="mt-5">
+          In Gent haalde ik mijn eerste diploma in Financie- en
+          Verzekeringswezen. Ik heb reeds werkervaring opgedaan bij de online
+          broker LYNX en werk ik mijn postgraduaat af in programmeren.
+        </h2>
         <div class="row">
-          <div class="col-md-6 mt-5 align">
-            <p>Ik zit ook zeker niet stil. In 2020 begon ik met mijn eigen zaak. Een online managementsysteem: RestoManager</p>
+          <div class="col-md-8 mt-5 align">
+            <p>Ik breid graag mijn netwerk uit.</p>
+            <p>Let's connect!</p>
+          </div>
+          <div class="col-md-4 mt-5">
+            <button class="btn-primary-big">
+              LinkedIn
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-caret-right-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Projects-->
+        <!-- Project 1: RESTOMANAGER-->
+      <div class="row m-lg-5">
+          <div class="col-lg-8 col-md-12 col-xs-12 d-flex flex-column justify-content-between mt-5">
+            <h2 class="mt-5">Mijn zaak: RestoManager</h2>
             <span>
-              <button class="btn-primary-big">RestoManager <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
-                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
-              </svg></button>
-              <button class="btn-secondary-big">RestoTakeout</button>
+              <p>
+                <a
+                  class="a-gray"
+                  href="https://restomanager.net/horeca-website/"
+                  >Web design
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-link-45deg"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"
+                    />
+                    <path
+                      d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"
+                    />
+                  </svg>
+                </a>
+              </p>
+              <p>
+                <a class="a-gray" href="https://mijn.restomanager.net/trial"
+                  >Probeer onze demo uit
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-link-45deg"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"
+                    />
+                    <path
+                      d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"
+                    />
+                  </svg>
+                </a>
+              </p>
             </span>
+            <p>
+              Doorheen de jaren heb ik meegewerkt aan verschillende projecten.
+              Deze varieerden van een online take-out systeem, tot een
+              all-in-one managementtool voor horecazaken en web design
+            </p>
+            <p>
+              Ontdek meer op <a href="https://restomanager.net">Onze website</a>
+            </p>
           </div>
 
-          <div class="col-md-6 mt-5"><img src="./img/jef.png" class="img-fluid"></div>
-      </div>
-      </div>
-    </div>
-    <!-- Mijn werk-->
-    <div class="container m-5">
-      <h3 class="h3-divider text-uppercase">${Mijn werk}</h3>
-      <h2 class="mt-5">In Gent haalde ik mijn eerste diploma in Financie- en Verzekeringswezen. Ik heb reeds werkervaring opgedaan bij de online broker LYNX en werk ik mijn postgraduaat af in programmeren.</h2>
-      <div class="row">
-        <div class="col-md-8 mt-5 align">
-          <p>Ik breid graag mijn netwerk uit.</p>
-          <p>Let's connect!</p>
+          <div class="col-lg-4 col-md-12 col-xs-12 d-flex mt-5flex-column justify-content-center">
+            <img src="./img/rm.svg" class="img-fluid" />
+          </div>
         </div>
-        <div class="col-md-4 mt-5"><button class="btn-primary-big">LinkedIn <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
-          <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
-        </svg></button>
+        <!-- Project 2: LYNX-->
+        <div class="row m-lg-5">
+          <div class="col-lg-4 col-md-12 col-xs-12 d-flex mt-5flex-column justify-content-center">
+            <img src="./img/lynx.svg" class="img-fluid" />
+          </div>
+          <div class="col-lg-8 col-md-12 col-xs-12 d-flex flex-column justify-content-between mt-5 text-end">
+            <h2 class="mt-5 ">Online Broker LYNX</h2>
+            <span>
+              <p>
+                <a
+                  class="a-gray"
+                  href="https://www.lynx.be/"
+                  >Ontdek de website
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-link-45deg"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"
+                    />
+                    <path
+                      d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"
+                    />
+                  </svg>
+                </a>
+              </p>
+              <p>
+                <a class="a-gray" href="https://service.lynx.be/"
+                  >Ik heb veel gewerkt aan het Service Center
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-link-45deg"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"
+                    />
+                    <path
+                      d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"
+                    />
+                  </svg>
+                </a>
+              </p>
+            </span>
+            <p>
+              Mijn eerste stage bracht ik door op het Service Departement. Na 1,5 jaar ben ik van Junior Account Manager overgeschakeld naar het Marketing departement, waar ik nu nog steeds werk. 
+            </p>
+            <p>
+              Ontdek meer op <a href="https://restomanager.net">Onze website</a>
+            </p>
+          </div>
+        </div>
+        <!-- Project 3: SCHOOL -->
+        <div class="row m-lg-5">
+          <div class="col-lg-8 col-md-12 col-xs-12 d-flex flex-column justify-content-between mt-5">
+            <h2 class="mt-5">Diploma'</h2>
+            <span>
+              <p>
+                <a
+                  class="a-gray"
+                  href="https://www.arteveldehogeschool.be/opleidingen/bachelor/financien-en-verzekeringen"
+                  >Financie- en Verzekeringswezen (professionele bachelor)
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-link-45deg"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"
+                    />
+                    <path
+                      d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"
+                    />
+                  </svg>
+                </a>
+              </p>
+              <p>
+                <a class="a-gray" href="https://www.arteveldehogeschool.be/opleidingen/graduaat/programmeren"
+                  >Postgraduaat programmeren
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-link-45deg"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"
+                    />
+                    <path
+                      d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"
+                    />
+                  </svg>
+                </a>
+              </p>
+            </span>
+            <p>
+              Mijn eerste stage bracht ik door op het Service Departement. Na 1,5 jaar ben ik van Junior Account Manager overgeschakeld naar het Marketing departement, waar ik nu nog steeds werk. 
+            </p>
+            <p>
+              Bekijk mijn volledige opleidingshistoriek en certificaten op <a href="https://www.linkedin.com/in/jef-de-niel-665787159/">LinkedIn</a>
+            </p>
+          </div>
+
+          <div class="col-lg-4 col-md-12 col-xs-12 d-flex mt-5flex-column justify-content-center">
+            <img src="./img/school.svg" class="img-fluid" />
+          </div>
         </div>
       </div>
     </div>
+    <!-- start of end navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark m-5">
+      <div class="container">
+        <a class="navbar-brand text-uppercase" href="#">Jef</a>
 
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <h2>Hello world!</h2>
-      <h3>Hello world!</h3>
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt
-        corporis, nisi consectetur necessitatibus officiis molestias numquam
-        est? Culpa fugit eos suscipit, <p class="p-detail">totam</p> iure possimus consequuntur nihil
-        iusto <a href="https://www.w3schools.com">Visit W3Schools</a> quas doloribus?
-      </p>
-      <button class="btn-primary-big">RestoManager </button>
-      <button class="btn-secondary-big">RestoManager <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
-        <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
-      </svg></button>
-      <button class="btn-primary-small">RestoManager <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
-        <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
-      </svg></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Over mij</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Mijn werk</a>
+            </li>
 
-    </div>
-      <!-- start of end navbar -->
-      <nav class="navbar navbar-expand-lg navbar-dark m-5">
-        <div class="container">
-          <a class="navbar-brand text-uppercase" href="#">Jef</a>
-  
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+
+          <button class="btn-primary-small">
+            Github
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-caret-right-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"
+              />
+            </svg>
           </button>
-  
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-  
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Over mij</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Mijn werk</a>
-              </li>
-              
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-            </ul>
-              
-              <button class="btn-primary-small">Github <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
-                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
-              </svg></button>
-           
-          </div>
         </div>
-      </nav>
+      </div>
+    </nav>
   </body>
 </html>
