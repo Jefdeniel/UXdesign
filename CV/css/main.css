@@ -2,11 +2,17 @@
   --color-white: hsl(0, 0%, 100%);
   --color-black: hsl(0, 0%, 0%);
   --color-gray: hsl(0, 0%, 75%);
-  --color-green: hsl(149, 99%, 33%);
+  --color-green: hsl(150, 74%, 47%);
   --color-green-subtle: hsl(151, 25%, 77%);
   --color-bg: hsl(225, 6%, 13%);
   --color-contact: hsl(160, 4%, 14%);
   --font-family-roboto: "Roboto Slab", serif;
+  --font-family-minecraftia: "Minecraftia", cursive;
+}
+
+@font-face {
+  font-family: minecraftia;
+  src: url(../fonts/minecraftia/Minecraftia-Regular.ttf);
 }
 
 body {
@@ -56,6 +62,11 @@ p {
 
 .p-detail {
   color: var(--color-green-subtle);
+}
+
+.text-pgm {
+  color: var(--color-green);
+  font-family: var(--font-family-minecraftia);
 }
 
 a {
@@ -130,4 +141,11 @@ a:hover {
 .contact-box {
   background-color: var(--color-contact);
   border-radius: 15px;
+}
+
+/* varie */
+
+.iconlist {
+  height: 60px;
+  margin: 25px;
 }
